@@ -1,4 +1,9 @@
 # Модуль Python для проверки точности определения размеров дефектов газопровода
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.detection.gazprom/pep257.yml?label=Pep257&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.detection.gazprom/actions?query=workflow%3Apep257)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.detection.gazprom/py2.yml?label=Python%202.7&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.detection.gazprom/actions?query=workflow%3Apy2)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.anomaly.detection.gazprom/py3.yml?label=Python%203.7-3.11&style=plastic&branch=main)](https://github.com/vb64/pipeline.anomaly.detection.gazprom/actions?query=workflow%3Apy3)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/fad3203f7d5346fabd5060db931a480b)](https://app.codacy.com/gh/vb64/pipeline.anomaly.detection.gazprom/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/fad3203f7d5346fabd5060db931a480b)](https://app.codacy.com/gh/vb64/pipeline.anomaly.detection.gazprom/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
 Этот модуль Python реализует требования Газпрома к порогу обнаружения и точности определения размеров дефектов трубопровода при продольном и поперечном намагничивании 
 согласно "Р Газпром2-2.3-919-2015 ОСНОВНОЕ И ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ ДЛЯ ВНУТРИТРУБНОГО ДИАГНОСТИРОВАНИЯ Технические требования".
