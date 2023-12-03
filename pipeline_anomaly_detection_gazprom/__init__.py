@@ -1,5 +1,5 @@
 # coding: utf-8
-"""Газпром 2-2.3-919-2015."""
+"""Gazprom requirements for the detection threshold and accuracy of determining the size of pipeline defects."""
 from pipeline_anomaly_dimension_class import FeatureClass, size_class
 
 

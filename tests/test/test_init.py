@@ -12,7 +12,7 @@ class TestsInit(TestBase):
     @staticmethod
     def test_is_in_limits():
         """Check is_in_limits function."""
-        from pipeline_anomaly_detection_gazprom import is_in_limits, MagnetType
+        from pipeline_anomaly_detection_gazprom import is_in_limits, MagnetType, Error
 
         real = (100, 100, 5)
         calcked = (90, 90, 6)
@@ -65,10 +65,11 @@ class TestsInit(TestBase):
         real = (10, 50, 10)
         calcked = (10, 50, 6)
 
-        assert is_in_limits(calcked, real, thick, magnet_type=MagnetType.MFL) == (True, True, False)
-        assert is_in_limits(calcked, real, thick, magnet_type=MagnetType.TFI) == (True, True, False)
+        assert is_in_limits(calcked, real, 10, magnet_type=MagnetType.MFL) == (True, True, False)
+        assert is_in_limits(calcked, real, 10, magnet_type=MagnetType.TFI) == (True, True, False)
 
-    def test_is_detectable(self):
+    @staticmethod
+    def test_is_detectable():
         """Check is_detectable function."""
         from pipeline_anomaly_detection_gazprom import is_detectable, MagnetType
 
