@@ -1,0 +1,2 @@
+recursive-include pipeline_anomaly_detection_gazprom *
+global-exclude *.py[cod]
